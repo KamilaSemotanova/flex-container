@@ -1,5 +1,34 @@
 /*Tady piš svůj kód*/
 
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35%;
+  justify-content: flex-end;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+
 /*-------------*/
 *,
 :before,
